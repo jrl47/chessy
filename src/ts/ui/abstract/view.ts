@@ -3,9 +3,7 @@ export class View {
     children: View[];
 
     constructor(elementType: string) {
-        console.log(elementType);
         this.view = document.createElement(elementType);
-        console.log(this.view);
         this.children = [];
     }
 
